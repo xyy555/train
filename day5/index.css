@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+   }
+   table{
+       width: 100%;
+       min-height: 100%;
+   }
+   #left ul {
+       list-style-type: none;
+       padding: 0;
+   }
+   #left ul>li {
+       border-bottom: 1px solid black;
+   }
+   #left ul>li:last-child {
+       border-bottom: 0;
+   }
+   #left ul>li a  {
+       text-decoration: none;
+       display: inline-block;
+       padding: 8px;
+       width: 100%;
+       box-sizing: border-box;
+   }
+   #left ul>li a:hover{
+       background-color: blue;
+   }
+   #header {
+       height: 65px;
+       text-align: center;
+       background-color: #4b6600;
+       padding: 16px;
+       
+   }
+   #header .icon {
+       height: 60px;
+       width: 60px;
+       vertical-align: middle;
+   }
+   #left {
+       display: inline-block;
+       width: 30%;
+       vertical-align: top;
+       background-color: wheat;
+   }
+   #right {
+       display: inline-block;
+       width: 60%;
+   }
+   #right p {
+       text-indent: 2em;
+   }
+   #right p::first-letter {
+       font-size: 32px;
+   }
+   #footer {
+       text-align: center;
+       padding: 8px;
+       background-color: #002766;
+       color: white;
+   }
+   .center {
+       text-align: center;
+   }
+   .price::before {
+       content: '￥';
+   }
