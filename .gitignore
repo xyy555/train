@@ -9,7 +9,7 @@ de_modules
 /coverage
 
 # production
-
+.history
 
 # misc
 .DS_Store
